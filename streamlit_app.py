@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
-import torch
+import torch # type: ignore
 import tempfile
 
 st.title("🐶 YOLOv9 Dog Detection")
