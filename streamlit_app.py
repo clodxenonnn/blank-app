@@ -9,7 +9,7 @@ from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 st.title("Real-time Detection with YOLO and Webcam")
 
 # Load YOLOv8 model
-model = YOLO("/workspaces/blank-app/best.pt")  # Replace with your trained model path
+model = YOLO("C:\Users\tande\OneDrive\Desktop\Year 3 Sem 1\CAO\best.pt")  # Replace with your trained model path
 
 # Define the video processor
 class YOLOTransformer(VideoTransformerBase):
